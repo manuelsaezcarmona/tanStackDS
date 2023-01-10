@@ -35,8 +35,6 @@ export function VisibleTable() {
 
   // Este ejemplo es con las propiedades (metodos), onColumn... que son handle's preparados para esta funcionalidad
 
-  // Los Metodos que queramos usar para
-
   const tableInstance = useReactTable({
     data,
     columns,
@@ -87,10 +85,8 @@ export function VisibleTable() {
           </label>
     */
 
-  const toogleVisibility = () => {};
-
   return (
-    <div id="grupoTable">
+    <div id="visible-Table">
       <h2 className="inter-headline-01-bold">Visible Table</h2>
       <div id="table/control">
         <p>controles</p>

@@ -3,6 +3,7 @@ import './App.css';
 import { BasicTable } from './components/Table/01BasicTable/BasicTable';
 import { VisibleTable } from './components/Table/02VisibleTable/VisibleTable';
 import { OrderTable } from './components/Table/03OrderTable/OrderTable';
+import { FiltersTable } from './components/Table/04FiltersTable/FiltersTable';
 
 import { PinnedTable } from './components/Table/PinnedTable/PinnedTable';
 
@@ -15,8 +16,9 @@ function App() {
       {/*  <div className="promotion-table-container">
         <BasicTable />
       </div> */}
-      <VisibleTable />
+      {/* <VisibleTable /> */}
       {/* <OrderTable /> */}
+      <FiltersTable />
     </div>
   );
 }
