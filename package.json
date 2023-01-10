@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@flat101/componentes": "0.1.0",
+    "@faker-js/faker": "^7.6.0",
+    "@flat101/componentes": "1.2.3",
     "@headlessui/react": "^1.6.5",
     "@tanstack/react-table": "^8.5.13",
     "@testing-library/jest-dom": "^5.16.4",
@@ -62,6 +63,6 @@
     "singleQuote": true,
     "arrowParens": "always",
     "trailingComma": "all",
-    "printWidth": 100
+    "printWidth": 110
   }
 }
